@@ -49,12 +49,12 @@ const Carrousel = () => {
 
             <div className='flex flex-col gap-2 w-3/4 justify-center text-white'>
                 <p className='text-lg'>
-                    Shonen
+                    {infoApi[counter]?.name} :
+
                 </p>
                 <p className='flex flex-col text-xs'>
-                    Is the manga  that is aimed at adolescent boys. They are <br />series with large amounts of action,
-                    in which humorous <br /> situations often occur.
-                    The camaraderie between <br /> members of a collective or a combat team stands out.</p>
+                    {infoApi[counter]?.description} :
+                </p>
             </div>
 
             <div className='p-2 rounded-full border flex justify-center  items-center w-fit'>
